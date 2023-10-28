@@ -20,6 +20,12 @@ struct LandmarkRow: View {
     }
 }
 
-#Preview {
-    LandmarkRow(landMark: landmarks[0])
+#Preview() {
+    Group {
+        LandmarkRow(landMark: landmarks[0])
+        LandmarkRow(landMark: landmarks[1])
+        
+    }
 }
+
+
