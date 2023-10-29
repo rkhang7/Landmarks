@@ -18,6 +18,7 @@
 		97ECB5C12AE961EE00FCC275 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECB5C02AE961EE00FCC275 /* ModelData.swift */; };
 		97ECB5C72AEAA63800FCC275 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECB5C62AEAA63800FCC275 /* LandmarkRow.swift */; };
 		97ECB5C92AECA90F00FCC275 /* LandmarksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECB5C82AECA90F00FCC275 /* LandmarksList.swift */; };
+		97ECB5CB2AEE061A00FCC275 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97ECB5CA2AEE061A00FCC275 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		97ECB5C02AE961EE00FCC275 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		97ECB5C62AEAA63800FCC275 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		97ECB5C82AECA90F00FCC275 /* LandmarksList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksList.swift; sourceTree = "<group>"; };
+		97ECB5CA2AEE061A00FCC275 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				971837232AE6BBF000E38EA1 /* ContentView.swift */,
 				97ECB5C62AEAA63800FCC275 /* LandmarkRow.swift */,
 				97ECB5C82AECA90F00FCC275 /* LandmarksList.swift */,
+				97ECB5CA2AEE061A00FCC275 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				97ECB5BB2AE7CE9F00FCC275 /* MapView.swift in Sources */,
 				971837222AE6BBF000E38EA1 /* LandmarksApp.swift in Sources */,
 				97ECB5B92AE7CC1500FCC275 /* CircleImage.swift in Sources */,
+				97ECB5CB2AEE061A00FCC275 /* LandmarkDetail.swift in Sources */,
 				97ECB5BF2AE95F8A00FCC275 /* Landmark.swift in Sources */,
 				97ECB5C72AEAA63800FCC275 /* LandmarkRow.swift in Sources */,
 				97ECB5C12AE961EE00FCC275 /* ModelData.swift in Sources */,
