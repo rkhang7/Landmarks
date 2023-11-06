@@ -42,5 +42,9 @@ struct LandmarkDetail: View {
 }
 
 #Preview {
-    LandmarkDetail(landmark: landmarks[0])
+    let landmarks = ModelData().landmarks
+       return Group {
+           LandmarkRow(landMark: landmarks[0])
+           LandmarkRow(landMark: landmarks[1])
+       }
 }

@@ -3,7 +3,7 @@ import Foundation
 
 @Observable
 class ModelData{
-    var landMarks: [Landmark] = load("landmarkData.json")
+    var landmarks: [Landmark] = load("landmarkData.json")
 }
 
 
